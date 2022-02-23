@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>calc</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calc result">
+        <p id="answer">Ответ</p>
+      </div>
+
+      <div class="calc data">
+        <div class="numbers">
+          <p>Число 1 <input type="text" class="input" id="n1" /></p>
+          <p>Число 2 <input type="text" class="input" id="n2" /></p>
+        </div>
+
+        <div class="computes">
+          <div class="column-1">
+            <button onclick="plus()">+</button>
+            <button onclick="minus()">-</button>
+          </div>
+
+          <div class="column-2">
+            <button onclick="divide()">/</button>
+            <button onclick="multiply()">*</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
